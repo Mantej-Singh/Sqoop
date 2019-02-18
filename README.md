@@ -159,12 +159,12 @@ Sqoop – Import a specific table from SQL Server to HIVE
 --hive-table <table-name> sets the table name to use when importing to Hive.
 
 sqoop import --connect
-"jdbc:sqlserver://ROSQC50;databaseName=ETLDB;" \
---username IEHUBETLLogin --password IEHUBETLLogin \
+"jdbc:sqlserver://ROSQC05;databaseName=ETLDB;" \
+--username MYLOGIN --password MYPASSWORD \
 --table "EE_ParticipantAccount" -m 1 \
 --fields-terminated-by "," \
 --hive-import \
---hive-table rs.EE_ParticipantAccount_test2
+--hive-table rs.EE_ParticipantAccount
 
 
 
