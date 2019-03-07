@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://i.postimg.cc/fTZNwxLr/screenshot-52.png">
+</p>
+
 # Sqoop
 Using sqoop to copy data from SQLServer to Hadoop
 
@@ -38,34 +42,7 @@ Support for Accumulo: You can also instruct Sqoop to import the table in Accumul
 ## Basic Available commands
  
 
-  codegen           	Generate code to interact with database records
-  
-  create-hive-table 	Import a table definition into Hive
-  
-  eval              	Evaluate a SQL statement and display the results
-  
-  export            	Export an HDFS directory to a database table
-  
-  help              	List available commands
-  
-  import            	Import a table from a database to HDFS
-  
-  import-all-tables 	Import tables from a database to HDFS
-  
-  import-mainframe  	Import datasets from a mainframe server to HDFS
-  
-  job               	Work with saved jobs
-  
-  list-databases    	List available databases on a server
-  
-  list-tables       	List available tables in a database
-  
-  merge             	Merge results of incremental imports
-  
-  metastore         	Run a standalone Sqoop metastore
-  
-  version           	Display version information
-  
+ [![screenshot-53.png](https://i.postimg.cc/9FpjzrwF/screenshot-53.png)](http://postimg.cc/MvvLFZYh)  
   
   
   Sqoop – IMPORT Command
